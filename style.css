@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(212, 225, 200, 0.4);
+    position: absolute;
+    min-height: 150%;  
+    min-width: 100%;
+    padding: 0;
+    overflow: auto;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+}
+
+.content {
+    margin: 1rem;
+    margin-top : 5rem;
+}
+
+hr {
+    border: 0.05rem solid black;
+}
+
+.latest {
+    margin-left: 0.5rem;
+}
+
+.nav-bar {
+    background-color: black;
+    height: 3.5rem;
+    padding-top: 1rem;
+    display: flex;
+    width: 100%;
+    z-index:10;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navs {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    /* width: 55%; */
+}
+
+.navs a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    justify-content: space-between;
+}
+.navs a:hover{
+    color :#e5f5ad;
+}
+.sitename {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    margin-top: 0.2rem;
+}
+
+.cards-content img {
+    height: 14rem;
+    width: 12rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-right: 0.5rem;
+}
+.cards-content img:hover {
+    cursor: pointer;
+}
+.cards {
+    margin-top: 0.5rem;
+    padding-right: 0.5rem;
+    border: 0.15rem solid rgba(0, 0, 0, 0.338);
+    border-radius: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0.6rem;
+    height: 14rem;
+    width: 35rem;
+    position: relative;
+    display: inline-block;
+    transform: 0.5s;
+    background-color: rgba(224, 236, 196, 0.1);
+}
+
+.card-heading {
+    display: inline;
+    position: absolute;
+}
+
+.cards-para {
+    display: inline;
+    position: absolute;
+    margin-top: 4.4rem;
+    margin-left: 0.3rem;
+}
+
+.cards-button {
+    margin-top: 1.5rem;
+    margin-left: 0.2rem;
+    height: 2rem;
+    width: 7rem;
+    font-size: 600;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    display: block;
+}
+
+.cards-button:hover {
+    box-shadow: 0rem 0.1rem 0.2rem black;
+    background-color: rgb(68, 67, 67);
+    background-color : #4C4084;
+    border : none;
+}
+
+.cards:hover {
+    box-shadow: 0rem 0.2rem 0.6rem black;
+    transform: 0.5s;
+}
+
+.cards-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.cards-image {
+    display: inline;
+}
+
+.cards-heading-author {
+    display: inline;
+}
+
+.author {
+    position: absolute;
+    margin-top: 2.7rem;
+    font-size: 0.9rem;
+    margin-left: 0.3rem;
+    text-decoration: none;
+    z-index: 1;
+}
+
+@media (min-width: 900px) {
+    .logo i{
+        display:none;
+    }
+    /* .sidebar{
+        display: none;
+    } */
+}
+@media (max-width: 900px) {
+    .nav-bar{
+        height : 3.5rem;
+    }
+    .navs {
+        display: none;
+    }
+    .cards {
+        height: 14rem;
+        width: 17rem;
+        font-size: 0.7rem;
+        padding-right : 0;
+    }
+    .card-heading{
+        margin-left : 0.5rem;
+        padding-left : 0.2rem;
+        padding-right : 0.2rem;
+        margin-top : 0.5rem;
+    }
+    .cards-content img {
+        height: 10rem;
+        width: 17rem;
+        border-radius : 0rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .cards-button {
+        height: 1.7rem;
+        width: 5.5rem;
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        display: none;
+    }
+    
+    .author {
+        font-size: 0.7rem;
+        margin-top : 2rem;
+        margin-left : 1rem;
+    }
+    .cards-para {
+        display: none;
+    }
+    .article{
+        overflow: auto;
+        /* width : 100%; */
+    }
+    .read-content {
+        margin-right : 0;
+        overflow: auto;
+        /* min-width: 100%; */
+    }
+    .latest-posts{
+        display : none;
+    }
+    .logo{
+        width : 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo i{
+        margin-right : 2rem;
+    }
+}
+.article{
+    width: 65%;
+    border: 0.15rem solid rgba(0, 0, 0, 0.338);
+    margin: 2rem;
+    margin-left : 2.5rem;
+    padding : 1rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.1rem 0.2rem black;
+    overflow: auto;
+
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.85);
+    color : white;
+    text-align: center; 
+    position: absolute; 
+    bottom: 0; 
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+
+}
+.latest-posts{
+    padding: 1rem;
+}
+.read-content {
+    overflow: auto;
+    margin-top : 5rem;
+    margin-bottom: 7rem;
+    display: flex;
+}
+.latest-cards{
+    height: 13.5rem;
+    width: 17rem;
+    border: 0.15rem solid rgba(0, 0, 0, 0.338);
+    /* font-size: 0.7rem; */
+    background-color: rgba(224, 236, 196, 0.2);
+    border-radius: 1rem;
+    margin-top : 1.5rem;
+}
+.latest-cards-img img{
+    height: 10rem;
+    width: 17rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.latest-card-heading{
+    margin: 0;
+    margin-top: 0.6rem;
+    text-align: center;
+    /* font-size: 1rem; */
+}
+.latest-cards-img img:hover{
+    cursor: pointer;
+}
+.latest-cards-author{
+    margin-left : 2rem;
+    text-decoration: none;
+}
+.article-author{
+    text-decoration: none;
+}
+.sidebar{
+    position:fixed;
+    width : 0rem;
+    height: 100vh;
+    background-color : #4C4084;
+    margin-top : -1rem;
+    /* left : -22rem; */
+    overflow: auto;
+    transition: 0.2s;
+    /* z-index: 1000; */
+
+}
+.side-navs a{
+    display: block;
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin-left : 1.6rem;
+    /* text-align: center; */
+}
+.side-navs a:hover{
+    border: 0.15rem solid rgb(255, 255, 255);
+
+}
+.fa-xmark{
+    margin-left : 10rem;
+    font-size: 1.7rem;
+    color: white;
+    margin : 1rem;
+    padding : 0.5rem;
+    margin-top : 1.5rem;
+}
+.fa-xmark:hover{
+    border: 0.15rem solid rgb(255, 255, 255);
+}
+.side-navs .sitename{
+    margin-left : 1rem;
+}
+.fa-bars{
+    margin-left : 9rem;
+    color : white;
+    margin-top : 0.5rem;
+    font-size: 1.5rem;
+    cursor : pointer
+}
+.fa-bars:hover{
+    color :#e1f1a6;
+
+}
+.site-logo{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-para{
+    margin-left : 0;
+}
