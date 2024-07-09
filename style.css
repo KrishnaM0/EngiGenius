@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(212, 225, 200, 0.4);
+    background-color: rgba(233, 241, 228, 0.5);
     position: absolute;
     min-height: 150%;  
     min-width: 100%;
@@ -28,7 +28,7 @@ hr {
 }
 
 .nav-bar {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     /* background-color: black; */
     height: 3.5rem;
     padding-top: 1rem;
@@ -111,7 +111,7 @@ hr {
     margin-left: 0.2rem;
     height: 2rem;
     width: 7rem;
-    font-size: 600;
+    /* font-weight: bold; */
     color: white;
     background-color: black;
     cursor: pointer;
@@ -203,9 +203,15 @@ hr {
     .cards-para {
         display: none;
     }
-    .article{
+    .read-content .article{
         overflow: auto;
         /* width : 100%; */
+        margin: 1rem;
+        width : 100%;
+        padding : 0.8rem;
+        padding-top : 0.4rem;
+        border: 0.15rem solid rgba(0, 0, 0, 0.338);
+        box-shadow: 0rem 0.1rem 0.2rem black;
     }
     .read-content {
         margin-right : 0;
@@ -224,7 +230,7 @@ hr {
         margin-right : 2rem;
     }
     .by-a{
-        margin-left: 0.5rem;
+        margin-left: 0.3rem;
     }
 }
 .article{
@@ -265,7 +271,7 @@ hr {
     width: 17rem;
     border: 0.15rem solid rgba(0, 0, 0, 0.338);
     /* font-size: 0.7rem; */
-    background-color: rgba(224, 236, 196, 0.2);
+    background-color: rgba(224, 236, 196, 0.1);
     border-radius: 1rem;
     margin-top : 1.5rem;
 }
@@ -311,6 +317,7 @@ hr {
     text-decoration: none;
     font-size: 1.4rem;
     margin-left : 1.6rem;
+    /* font-weight: bold; */
     /* text-align: center; */
 }
 .side-navs a:hover{
@@ -356,8 +363,8 @@ hr {
     color : black;
     font-style: italic;
     font-weight:600;
-    font-size: 0.7rem;
-    margin-left: 0.7rem; 
+    font-size: 0.76rem;
+    /* margin-left: 0.7rem;  */
     margin-top: 3rem;
 }
 .article-author{
