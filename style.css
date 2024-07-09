@@ -28,7 +28,8 @@ hr {
 }
 
 .nav-bar {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* background-color: black; */
     height: 3.5rem;
     padding-top: 1rem;
     display: flex;
@@ -168,9 +169,9 @@ hr {
         display: none;
     }
     .cards {
-        height: 14rem;
-        width: 17rem;
-        font-size: 0.7rem;
+        height: 14.5rem;
+        width: 18rem;
+        font-size: 0.75rem;
         padding-right : 0;
     }
     .card-heading{
@@ -181,7 +182,7 @@ hr {
     }
     .cards-content img {
         height: 10rem;
-        width: 17rem;
+        width: 18rem;
         border-radius : 0rem;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
@@ -195,9 +196,8 @@ hr {
     }
     
     .author {
-        font-size: 0.7rem;
+        font-size: 0.5rem;
         margin-top : 2rem;
-        margin-left : 1rem;
     }
     .cards-para {
         display: none;
@@ -335,7 +335,7 @@ hr {
     cursor : pointer
 }
 .fa-bars:hover{
-    color :#e1f1a6;
+    color :#f5f2e6;
 
 }
 .site-logo{
@@ -344,4 +344,19 @@ hr {
 }
 .footer-para{
     margin-left : 0;
+}
+.site-logo .sitename{
+    border: 0.15rem solid rgb(255, 255, 255);
+}
+.author{
+    color : black;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 0.7rem;
+    margin-left: 0.7rem; 
+}
+.article-author{
+    color : rgb(43, 42, 42);
+    font-style: italic;
+
 }
