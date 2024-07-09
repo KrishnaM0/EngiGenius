@@ -169,9 +169,9 @@ hr {
         display: none;
     }
     .cards {
-        height: 14.5rem;
-        width: 18rem;
-        font-size: 0.75rem;
+        height: 14.4rem;
+        width: 19rem;
+        font-size: 0.8rem;
         padding-right : 0;
     }
     .card-heading{
@@ -181,8 +181,8 @@ hr {
         margin-top : 0.5rem;
     }
     .cards-content img {
-        height: 10rem;
-        width: 18rem;
+        height: 10.3rem;
+        width: 19rem;
         border-radius : 0rem;
         border-top-left-radius: 1rem;
         border-top-right-radius: 1rem;
@@ -195,9 +195,10 @@ hr {
         display: none;
     }
     
-    .author {
-        font-size: 0.5rem;
+    .cards-heading-author .author {
+        font-size: 0.66rem;
         margin-top : 2rem;
+        margin-left: 1rem;
     }
     .cards-para {
         display: none;
@@ -221,6 +222,9 @@ hr {
     }
     .logo i{
         margin-right : 2rem;
+    }
+    .by-a{
+        margin-left: 0.5rem;
     }
 }
 .article{
@@ -351,12 +355,18 @@ hr {
 .author{
     color : black;
     font-style: italic;
-    font-weight: bold;
+    font-weight:600;
     font-size: 0.7rem;
     margin-left: 0.7rem; 
+    margin-top: 3rem;
 }
 .article-author{
     color : rgb(43, 42, 42);
     font-style: italic;
 
+}
+.by-a{
+    font-style: normal;
+    font-weight: normal;
+    cursor :default;
 }
