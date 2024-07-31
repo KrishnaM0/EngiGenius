@@ -3,8 +3,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     /* background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%); */
     position: absolute;
-    /* min-height: 150%;  
-    min-width: 100%; */
+    min-height: 150%;  
+    min-width: 100%;
     padding: 0;
     overflow: auto;
     background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
