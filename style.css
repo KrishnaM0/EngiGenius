@@ -114,8 +114,8 @@ hr {
 .cards-button:hover {
     box-shadow: 0rem 0.1rem 0.2rem black;
     background-color: rgb(68, 67, 67);
-    /* background-color : #4C4084; */
-    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);    
+    background-color : #4C4084;
+    /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);     */
 
     border : none;
 }
@@ -363,4 +363,76 @@ hr {
 #article-img{
     width : 100%;
     height : 20rem;
+}
+.about-authors{
+    margin : 1rem;
+}
+.author-cards{
+    margin : 1rem;
+    width : 36rem;
+    height : 14rem;
+    border-radius : 1rem;
+    border : 0.1rem solid rgba(0, 0, 0, 0.4);
+    /* text-align: center; */
+    position: relative;
+    padding-right : 0.4rem;
+
+}
+#author-img{
+    height : 14rem;
+    width : 14rem;
+    border-top-left-radius : 1rem;
+    border-bottom-left-radius : 1rem;
+    display: inline;
+}
+.author-name{
+    text-align: center;
+    display: inline;
+    position: absolute;
+    margin-left : 0.5rem;
+}
+.author-name a{
+    text-decoration: none;
+}
+.author-icons{
+    font-size: 1.7rem;
+    /* display: inline; */
+    display: inline-flex;
+    position: absolute;
+    margin-top : 9.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.author-icons a i{
+    margin-right: 0.5rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+.author-content{
+    display: flex;
+}
+.author-para{
+    display: inline;
+    position :absolute;
+    margin-top: 3.2rem;
+    padding : 0.3rem;
+    margin-left: 0.6rem;
+}
+.author-button{
+    background-color : #4C4084;
+    color : white;
+    height : 2.2rem;
+    width : 7.3rem;
+    border-radius : 1rem;
+    font-weight: 750;
+    margin-left: 1.4rem;
+    margin-right : 3rem;
+    border : none;
+    box-shadow: 0.1rem 0.1rem 0.4rem black;
+}
+.author-button:hover{
+    cursor: pointer;
+}
+.icons{
+    margin-top : 0.4rem;
 }
