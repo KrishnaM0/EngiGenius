@@ -2,15 +2,13 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     /* background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%); */
-    position: absolute;
-    min-height: 150%;  
+    /* position: fixed; */
+    /* min-height: 150%;   */
     min-width: 100%;
     padding: 0;
     overflow: auto;
-    background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
-
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
-
 .logo {
     width: 30%;
     display: flex;
@@ -258,7 +256,9 @@ hr {
 
     color : white;
     text-align: center; 
-    position: absolute; 
+    /* position: absolute;  */
+    position:relative; 
+
     bottom: 0; 
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -274,7 +274,7 @@ hr {
 .read-content {
     overflow: auto;
     margin-top : 5rem;
-    margin-bottom: 7rem;
+    /* margin-bottom: 7rem; */
     display: flex;
 }
 .latest-cards{
