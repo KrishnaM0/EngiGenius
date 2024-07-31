@@ -254,7 +254,6 @@ hr {
 
 }
 .footer{
-    /* background-color: rgba(0, 0, 0, 0.85); */
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);    padding-top: 1rem;
 
     color : white;
@@ -265,6 +264,7 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+    z-index: 10;
 
 
 }
@@ -282,7 +282,7 @@ hr {
     width: 17rem;
     border: 0.15rem solid rgba(0, 0, 0, 0.338);
     /* font-size: 0.7rem; */
-    background-color: rgba(224, 236, 196, 0.1);
+    /* background-color: rgba(224, 236, 196, 0.1); */
     border-radius: 1rem;
     margin-top : 1.5rem;
 }
