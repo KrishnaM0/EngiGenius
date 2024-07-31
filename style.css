@@ -1,9 +1,6 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    /* background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%); */
-    /* position: fixed; */
-    /* min-height: 150%;   */
     min-width: 100%;
     padding: 0;
     overflow: auto;
@@ -28,8 +25,6 @@ hr {
 }
 
 .nav-bar {
-    /* background-color: rgba(0, 0, 0, 0.95); */
-    /* background-color: black; */
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);    
     padding-top: 1rem;
     padding-bottom : 0.1rem;
@@ -45,7 +40,6 @@ hr {
     display: flex;
     justify-content: space-around;
     flex-grow: 1;
-    /* width: 55%; */
 }
 
 .navs a {
@@ -91,9 +85,7 @@ hr {
     width: 35rem;
     position: relative;
     display: inline-block;
-    transform: 0.5s;
-    /* background-color: rgba(224, 236, 196, 0.1); */
-    
+    transform: 0.5s;    
 }
 
 .card-heading {
@@ -113,7 +105,6 @@ hr {
     margin-left: 0.2rem;
     height: 2rem;
     width: 7rem;
-    /* font-weight: bold; */
     color: white;
     background-color: black;
     cursor: pointer;
@@ -161,9 +152,6 @@ hr {
     .logo i{
         display:none;
     }
-    /* .sidebar{
-        display: none;
-    } */
 }
 @media (max-width: 900px) {
     .nav-bar{
@@ -209,7 +197,6 @@ hr {
     }
     .read-content .article{
         overflow: auto;
-        /* width : 100%; */
         margin: 1rem;
         width : 100%;
         padding : 0.8rem;
@@ -220,7 +207,6 @@ hr {
     .read-content {
         margin-right : 0;
         overflow: auto;
-        /* min-width: 100%; */
     }
     .latest-posts{
         display : none;
@@ -238,6 +224,7 @@ hr {
     }
     #article-img{
         height : 10rem;
+        display: none;
     }
 }
 .article{
@@ -253,20 +240,15 @@ hr {
 }
 .footer{
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);    padding-top: 1rem;
-
     color : white;
     text-align: center; 
-    /* position: absolute;  */
     position:relative; 
-
     bottom: 0; 
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     z-index: 10;
-
-
 }
 .latest-posts{
     padding: 1rem;
@@ -274,15 +256,12 @@ hr {
 .read-content {
     overflow: auto;
     margin-top : 5rem;
-    /* margin-bottom: 7rem; */
     display: flex;
 }
 .latest-cards{
     height: 13.5rem;
     width: 17rem;
     border: 0.15rem solid rgba(0, 0, 0, 0.338);
-    /* font-size: 0.7rem; */
-    /* background-color: rgba(224, 236, 196, 0.1); */
     border-radius: 1rem;
     margin-top : 1.5rem;
 }
@@ -296,7 +275,6 @@ hr {
     margin: 0;
     margin-top: 0.6rem;
     text-align: center;
-    /* font-size: 1rem; */
 }
 .latest-cards-img img:hover{
     cursor: pointer;
@@ -312,15 +290,10 @@ hr {
     position:fixed;
     width : 0rem;
     height: 100vh;
-    /* background-color : #4C4084; */
     background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);    padding-top: 1rem;
-
     margin-top : -1rem;
-    /* left : -22rem; */
     overflow: auto;
     transition: 0.2s;
-    /* z-index: 1000; */
-
 }
 .side-navs a{
     display: block;
@@ -330,8 +303,6 @@ hr {
     text-decoration: none;
     font-size: 1.4rem;
     margin-left : 1.6rem;
-    /* font-weight: bold; */
-    /* text-align: center; */
 }
 .side-navs a:hover{
     border: 0.15rem solid rgb(255, 255, 255);
@@ -377,7 +348,6 @@ hr {
     font-style: italic;
     font-weight:600;
     font-size: 0.76rem;
-    /* margin-left: 0.7rem;  */
     margin-top: 3rem;
 }
 .article-author{
