@@ -367,13 +367,12 @@ hr {
 .about-authors{
     margin : 1rem;
 }
-.author-cards{
+/* .author-cards{
     margin : 1rem;
     width : 36rem;
     height : 14rem;
     border-radius : 1rem;
     border : 0.1rem solid rgba(0, 0, 0, 0.4);
-    /* text-align: center; */
     position: relative;
     padding-right : 0.4rem;
 
@@ -396,7 +395,6 @@ hr {
 }
 .author-icons{
     font-size: 1.7rem;
-    /* display: inline; */
     display: inline-flex;
     position: absolute;
     margin-top : 9.5rem;
@@ -435,4 +433,34 @@ hr {
 }
 .icons{
     margin-top : 0.4rem;
+} */
+
+.author-cards{
+    height : 18rem;
+    width : 18rem;
+    border : 0.2rem solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding : 1rem;
+    border-radius: 1rem;
+}
+.author-content{
+    margin : 1rem;
+    display: inline-flex;
+
+}
+.author-cards:hover{
+    box-shadow: 0rem 0.1rem 0.5rem black;
+}
+.author-img{
+    height : 8.5rem;
+    width : 8.5rem;
+    border-radius: 50%;
+}
+.author-img:hover{
+    cursor : pointer;
+}
+.icons a i{
+    margin : 0.5rem;
+    margin-top : 0.35rem;
+    font-size: 1.5rem;
 }
