@@ -22,6 +22,8 @@ hr {
 
 .latest {
     margin-left: 0.5rem;
+    margin-top : 5rem;
+
 }
 
 .nav-bar {
@@ -464,5 +466,81 @@ hr {
     margin-top : 0.35rem;
     font-size: 1.5rem;
     text-decoration: none;
+    color : black;
+}
+.contact-us{
+    margin-left: 1rem;
+    /* margin-top : 5rem; */
+    margin-right: 1rem;
+
+}
+.contact-input{
+    height : 2rem;
+    width : 25rem;
+    display: block;
+    /* border-radius: 1rem; */
+    margin-top : 0.5rem;
+    padding : 0.2rem;
+    padding-right : 0.5rem;
+    padding-left : 0.5rem;
+}
+.contact{
+    height : 27rem;
+    width : 33.6rem;
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    margin : 1rem;
+    /* margin-top : 1.5rem; */
+}
+.contact-form{
+    margin: 1rem;
+    margin-left : 3.5rem;
+    padding-top : 0.3rem;
+}
+#user-comment{
+    display: block;
+    margin-top : 0.5rem;
+    padding : 0.5rem;
+    padding-right : 0.5rem;
+    padding-left : 0.5rem;
+}
+.contact-div{
+    margin-top : 1rem;
+}
+.connect-us{
+    display: inline;
+    /* width : 15rem; */
+    margin-top : 1rem;
+    margin-left : 2rem;
+    padding : 1rem;
+    text-align: center;
+}
+.connect{
+    display: inline;
+
+}
+.contact-content{
+    display: flex;
+}
+.contact-heading{
+    margin : 1rem;
+    margin-top : 6rem;
+}
+.contact-icons{
+    font-size: 2rem;
+    /* margin : 1rem; */
+    margin-top : 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+.contact-icons a i{
+    text-decoration: none;
+    /* color : black; */
+    /* margin-left : 0.4rem; */
+}
+.fa-whatsapp{
+    color : green;
+}
+.fa-github{
     color : black;
 }
