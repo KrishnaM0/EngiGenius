@@ -334,7 +334,7 @@ hr {
     padding-left : 0.5rem;
 }
 .contact{
-    height : 27rem;
+    height : 29rem;
     width : 33.6rem;
     border: 0.2rem solid rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
@@ -387,6 +387,28 @@ hr {
 }
 .fa-github{
     color : black;
+}
+.submit{
+    color : white;
+    background-color : #4C4084;
+    height : 2rem;
+    width : 5rem;
+    /* border-radius: 1rem; */
+    margin-top : 1.3rem;
+    margin-left : 0.3rem;
+    border: none;
+    font-weight: 700;
+    box-shadow: 0 0 0.2rem black;
+    transition: 0.2s;
+}
+.submit:hover{
+    cursor: pointer;
+    height : 2.2rem;
+    transition: 0.2s;
+}
+.submit:active{
+    height : 1.9rem;
+    transform: 0.2s;
 }
 
 @media (min-width: 900px) {
