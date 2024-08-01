@@ -117,8 +117,6 @@ hr {
     box-shadow: 0rem 0.1rem 0.2rem black;
     background-color: rgb(68, 67, 67);
     background-color : #4C4084;
-    /* background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);     */
-
     border : none;
 }
 
@@ -150,85 +148,6 @@ hr {
     z-index: 1;
 }
 
-@media (min-width: 900px) {
-    .logo i{
-        display:none;
-    }
-}
-@media (max-width: 900px) {
-    .nav-bar{
-        height : 3.5rem;
-    }
-    .navs {
-        display: none;
-    }
-    .cards {
-        height: 14.4rem;
-        width: 19rem;
-        font-size: 0.8rem;
-        padding-right : 0;
-    }
-    .card-heading{
-        margin-left : 0.5rem;
-        padding-left : 0.2rem;
-        padding-right : 0.2rem;
-        margin-top : 0.5rem;
-    }
-    .cards-content img {
-        height: 10.3rem;
-        width: 19rem;
-        border-radius : 0rem;
-        border-top-left-radius: 1rem;
-        border-top-right-radius: 1rem;
-    }
-    .cards-button {
-        height: 1.7rem;
-        width: 5.5rem;
-        font-size: 0.7rem;
-        margin-top: 1rem;
-        display: none;
-    }
-    
-    .cards-heading-author .author {
-        font-size: 0.66rem;
-        margin-top : 2rem;
-        margin-left: 1rem;
-    }
-    .cards-para {
-        display: none;
-    }
-    .read-content .article{
-        overflow: auto;
-        margin: 1rem;
-        width : 100%;
-        padding : 0.8rem;
-        padding-top : 0.4rem;
-        border: 0.15rem solid rgba(0, 0, 0, 0.338);
-        box-shadow: 0rem 0.1rem 0.2rem black;
-    }
-    .read-content {
-        margin-right : 0;
-        overflow: auto;
-    }
-    .latest-posts{
-        display : none;
-    }
-    .logo{
-        width : 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    .logo i{
-        margin-right : 2rem;
-    }
-    .by-a{
-        margin-left: 0.3rem;
-    }
-    #article-img{
-        height : 10rem;
-        display: none;
-    }
-}
 .article{
     width: 65%;
     border: 0.15rem solid rgba(0, 0, 0, 0.338);
@@ -369,74 +288,6 @@ hr {
 .about-authors{
     margin : 1rem;
 }
-/* .author-cards{
-    margin : 1rem;
-    width : 36rem;
-    height : 14rem;
-    border-radius : 1rem;
-    border : 0.1rem solid rgba(0, 0, 0, 0.4);
-    position: relative;
-    padding-right : 0.4rem;
-
-}
-#author-img{
-    height : 14rem;
-    width : 14rem;
-    border-top-left-radius : 1rem;
-    border-bottom-left-radius : 1rem;
-    display: inline;
-}
-.author-name{
-    text-align: center;
-    display: inline;
-    position: absolute;
-    margin-left : 0.5rem;
-}
-.author-name a{
-    text-decoration: none;
-}
-.author-icons{
-    font-size: 1.7rem;
-    display: inline-flex;
-    position: absolute;
-    margin-top : 9.5rem;
-    align-items: center;
-    justify-content: center;
-}
-.author-icons a i{
-    margin-right: 0.5rem;
-    margin-left: 1rem;
-    text-decoration: none;
-}
-.author-content{
-    display: flex;
-}
-.author-para{
-    display: inline;
-    position :absolute;
-    margin-top: 3.2rem;
-    padding : 0.3rem;
-    margin-left: 0.6rem;
-}
-.author-button{
-    background-color : #4C4084;
-    color : white;
-    height : 2.2rem;
-    width : 7.3rem;
-    border-radius : 1rem;
-    font-weight: 750;
-    margin-left: 1.4rem;
-    margin-right : 3rem;
-    border : none;
-    box-shadow: 0.1rem 0.1rem 0.4rem black;
-}
-.author-button:hover{
-    cursor: pointer;
-}
-.icons{
-    margin-top : 0.4rem;
-} */
-
 .author-cards{
     height : 17rem;
     width : 16rem;
@@ -470,7 +321,6 @@ hr {
 }
 .contact-us{
     margin-left: 1rem;
-    /* margin-top : 5rem; */
     margin-right: 1rem;
 
 }
@@ -478,7 +328,6 @@ hr {
     height : 2rem;
     width : 25rem;
     display: block;
-    /* border-radius: 1rem; */
     margin-top : 0.5rem;
     padding : 0.2rem;
     padding-right : 0.5rem;
@@ -490,7 +339,6 @@ hr {
     border: 0.2rem solid rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
     margin : 1rem;
-    /* margin-top : 1.5rem; */
 }
 .contact-form{
     margin: 1rem;
@@ -509,7 +357,6 @@ hr {
 }
 .connect-us{
     display: inline;
-    /* width : 15rem; */
     margin-top : 1rem;
     margin-left : 2rem;
     padding : 1rem;
@@ -528,19 +375,118 @@ hr {
 }
 .contact-icons{
     font-size: 2rem;
-    /* margin : 1rem; */
     margin-top : 2rem;
     display: flex;
     justify-content: space-around;
 }
 .contact-icons a i{
     text-decoration: none;
-    /* color : black; */
-    /* margin-left : 0.4rem; */
 }
 .fa-whatsapp{
     color : green;
 }
 .fa-github{
     color : black;
+}
+
+@media (min-width: 900px) {
+    .logo i{
+        display:none;
+    }
+}
+@media (max-width: 900px) {
+    .nav-bar{
+        height : 3.5rem;
+    }
+    .navs {
+        display: none;
+    }
+    .cards {
+        height: 14.4rem;
+        width: 19rem;
+        font-size: 0.8rem;
+        padding-right : 0;
+    }
+    .card-heading{
+        margin-left : 0.5rem;
+        padding-left : 0.2rem;
+        padding-right : 0.2rem;
+        margin-top : 0.5rem;
+    }
+    .cards-content img {
+        height: 10.3rem;
+        width: 19rem;
+        border-radius : 0rem;
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+    .cards-button {
+        height: 1.7rem;
+        width: 5.5rem;
+        font-size: 0.7rem;
+        margin-top: 1rem;
+        display: none;
+    }
+    
+    .cards-heading-author .author {
+        font-size: 0.66rem;
+        margin-top : 2rem;
+        margin-left: 1rem;
+    }
+    .cards-para {
+        display: none;
+    }
+    .read-content .article{
+        overflow: auto;
+        margin: 1rem;
+        width : 100%;
+        padding : 0.8rem;
+        padding-top : 0.4rem;
+        border: 0.15rem solid rgba(0, 0, 0, 0.338);
+        box-shadow: 0rem 0.1rem 0.2rem black;
+    }
+    .read-content {
+        margin-right : 0;
+        overflow: auto;
+    }
+    .latest-posts{
+        display : none;
+    }
+    .logo{
+        width : 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo i{
+        margin-right : 2rem;
+    }
+    .by-a{
+        margin-left: 0.3rem;
+    }
+    #article-img{
+        height : 10rem;
+        display: none;
+    }
+    .contact{
+        height : 27rem;
+        width : 22rem;
+    }
+    .contact-input{
+        height : 2rem;
+        width : 15rem;
+    }
+    .connect-us{
+        display: block;
+        position:absolute;
+        margin-top : 29rem;
+        text-align: center;
+        /* display: none; */
+        margin-left : 6rem;
+    }
+    #user-comment{
+        width : 15rem;
+    }
+    .contact-form{
+        margin-left : 2.6rem;
+    }
 }
