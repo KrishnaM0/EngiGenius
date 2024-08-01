@@ -248,7 +248,7 @@ hr {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    z-index: 10;
+    /* z-index: 10; */
 }
 .latest-posts{
     padding: 1rem;
