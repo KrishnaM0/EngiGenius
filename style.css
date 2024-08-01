@@ -449,7 +449,7 @@ hr {
 
 }
 .author-cards:hover{
-    box-shadow: 0rem 0.1rem 0.5rem black;
+    box-shadow: 0rem 0rem 0.5rem black;
 }
 .author-img{
     height : 8.5rem;
