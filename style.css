@@ -469,11 +469,12 @@ hr {
     }
     .contact{
         height : 27rem;
-        width : 22rem;
+        width : 20rem;
+        margin-left: 0.5rem;
     }
     .contact-input{
         height : 2rem;
-        width : 15rem;
+        width : 15.6rem;
     }
     .connect-us{
         display: block;
@@ -481,12 +482,13 @@ hr {
         margin-top : 29rem;
         text-align: center;
         /* display: none; */
-        margin-left : 6rem;
+        margin-left : 0rem;
+        width : 90%;
     }
     #user-comment{
-        width : 15rem;
+        width : 15.6rem;
     }
     .contact-form{
-        margin-left : 2.6rem;
+        margin-left : 1.5rem;
     }
 }
