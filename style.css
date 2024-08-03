@@ -410,6 +410,17 @@ hr {
     height : 1.9rem;
     transform: 0.2s;
 }
+.blogs-content{
+    margin : 1rem;
+}
+.blogs-content h1{
+    text-align: center;
+    color: #4C4084;
+}
+
+
+
+
 
 @media (min-width: 900px) {
     .logo i{
